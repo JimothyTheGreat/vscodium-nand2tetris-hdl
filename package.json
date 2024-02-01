@@ -1,16 +1,16 @@
 {
-    "name": "vscode-nand2tetris-hdl",
+    "name": "vscodium-nand2tetris-hdl",
     "displayName": "Nand2Tetris",
     "description": "Snippets and syntax highlighting for the HDL and ASM languages from the Nand2Tetris course.",
     "version": "0.1.0",
-    "publisher": "roblourens",
+    "publisher": "JimothyTheGreat",
     "engines": {
         "vscode": "^1.13.0"
     },
     "icon": "images/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/roblourens/vscode-nand2tetris-hdl"
+        "url": "https://github.com/JimothyTheGreat/vscodium-nand2tetris-hdl"
     },
     "categories": [
         "Languages"
@@ -19,14 +19,22 @@
         "languages": [
             {
                 "id": "hack_hdl",
-                "aliases": ["HDL (Hack)"],
-                "extensions": [".hdl"],
+                "aliases": [
+                    "HDL (Hack)"
+                ],
+                "extensions": [
+                    ".hdl"
+                ],
                 "configuration": "./hdl.language-configuration.json"
             },
             {
                 "id": "hack_asm",
-                "aliases": ["ASM (Hack)"],
-                "extensions": [ ".asm" ],
+                "aliases": [
+                    "ASM (Hack)"
+                ],
+                "extensions": [
+                    ".asm"
+                ],
                 "configuration": "./asm.language-configuration.json"
             }
         ],
